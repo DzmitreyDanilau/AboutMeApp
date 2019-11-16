@@ -1,3 +1,3 @@
 package com.example.android.aboutme
 
-data class MyName(val name: String)
+data class MyName(var name: String ="", var nickName: String = "")
